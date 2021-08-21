@@ -15,7 +15,7 @@ var logger = require('./logger').logger(environment);
 
 var serverPort = process.env.PORT || 1337
 var serverIpAddress = process.env.IP || 'localhost'
-var socketIoServer = '127.0.0.1' + ':' + serverPort;
+var socketIoServer = 'one-to-many12.herokuapp.com' + ':' + serverPort;
 
 ////////////////////////////////////////////////
 // SETUP SERVER
