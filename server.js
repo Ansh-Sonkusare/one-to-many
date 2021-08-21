@@ -13,8 +13,8 @@ var cors = require('cors');
 const http = require('http');
 var logger = require('./logger').logger(environment);
 
-var serverPort = process.env.RTC_PORT || 1337
-var serverIpAddress = process.env.RTC_IP || 'localhost'
+var serverPort = process.env.PORT || 1337
+var serverIpAddress = process.env.IP || 'localhost'
 var socketIoServer = '127.0.0.1' + ':' + serverPort;
 
 ////////////////////////////////////////////////
